@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    margin-right: 2rem;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+   
+   
+}
+
+nav a{
+    text-decoration: none;   
+    color: black;
+}
+
+header h1{
+    text-align: center;
+}
+body{
+    background-color: #bc9c3e56;
+}
+main h2{
+    text-align: center;
+}
+#box{
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5rem;
+    padding-top: .5rem;
+    border-radius: 5px;
+    
+}
+
+
+@keyframes color {
+    0%{
+background-color: white;
+    }
+    50%{
+background-color: blue;
+    }
+    100%{
+background-color: yellow;
+    }
+}
