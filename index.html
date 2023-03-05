@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Lab 3</title>
         <link rel="stylesheet" href="css/main.css" />
+        <script src="js/main.js" defer></script>
     </head>
 
     <body>
@@ -28,26 +29,6 @@
 
             <!-- TB: in my demos I use a single consolidated file. For your submissions
 I want to see the CSS and JS separated into their own folders/files please. -->
-
-            <script>
-                /* TB: Create shortcut variables first */
-                const box = document.getElementById("box");
-                const xVal = document.getElementById("x-value");
-                const yVal = document.getElementById("y-value");
-
-                box.addEventListener("mousemove", (e) => {
-                    // TB: offsetX is based on the current
-                    // container's position in the document.
-                    // clientX/Y is based on the document.
-                    xVal.textContent = e.offsetX;
-                    yVal.textContent = e.offsetY;
-                });
-
-                box.addEventListener("click", (e) => {
-                    box.classList.toggle("change");
-                    console.log(e);
-                });
-            </script>
         </main>
     </body>
 </html>
